@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Splurty</title>
+  <title>Real World Marraige Advice</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
@@ -21,11 +21,11 @@
 		</div>
 	</div>
 		<div class="col-xs-4 slogan">
-			REAL WORLD Marraige Advice for Ladies in Love
+			Real World Marraige Advice for Ladies in Love
 		</div>
-		<div class="col-ex-5 links">
+		<div class="col-xs-5 links">
 			<%= link_to 'Contribute', new_quote_path %>
-			<%= link_to 'About', '#' %>
+			<%= link_to 'About', about_path %>
 		</div>
 	</header>
     <hr />
@@ -40,11 +40,11 @@
 	</div>
 
 	<div class="footer">	
-	  <div class="containter">
+	  <div class="container">
 	   <div class="col-xs-6">
 	   	<%= link_to "This isn't enough, I need more", root_path, :class => 'next-quote' %>
 		</div>
-		<div class="col-xs=6 footer-blurb">
+		<div class="col-xs-6 footer-blurb">
 			Proudly hacked in DE by Rachael S.<br />
 			Want to build your own Splurty Web App - <a href="http://www.thefirehoseproject.com">Learn how to code here</a>
 		</div>
