@@ -61,7 +61,7 @@
 	<div class="container">
 		<% if flash[:error].present? %>
 		<div class="col-xs-10 col-xs-offset-1 alert alert-danger">
-			<%= flash[:error] %>
+			<%= flash[:error].html_safe %>
 		</div>
 		<% end %>
 		<%= yield %>
@@ -73,8 +73,8 @@
 	   	<%= link_to "This isn't enough, I need more", root_path, :class => 'next-quote' %>
 		</div>
 		<div class="col-xs-12 col-sm-6 footer-blurb">
-			Proudly hacked in DE by Rachael S.<br />
-			Want to build your own Splurty Web App - <a href="http://www.thefirehoseproject.com">Learn how to code here</a>
+			Proudly hacked in Newark, DE by <a target="_blank" href="https://github.com/rachaelsalter">Rachael</a><br />
+			Want to build your own Splurty Web App - <a target="_blank" href="http://www.thefirehoseproject.com">Learn how to code here</a>
 		</div>
 	  <div>
     <div>
