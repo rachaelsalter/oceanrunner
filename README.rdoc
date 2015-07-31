@@ -1,4 +1,3 @@
 
 == README
 
-I love gooey eggs!
