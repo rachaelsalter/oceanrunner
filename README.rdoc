@@ -2,9 +2,3 @@
 == README
 
 I love gooey eggs!
-
-<<<<<<< HEAD
-I used to not like them!
-=======
-I used to not like them.
->>>>>>> 10274752857ea464e418a2e1e6291426f3c4cbc5
