@@ -1,6 +1,7 @@
 
 == README
 
-I love gooey eggs!
+I like gooey eggs!
 
 -Rachael
+
